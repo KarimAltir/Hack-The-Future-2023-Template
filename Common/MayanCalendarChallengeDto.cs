@@ -2,7 +2,7 @@ namespace Common;
 
 public record MayanCalendarChallengeDto
 {
-    public DateOnly StartDate { get; set; }
-    public DateOnly EndDate { get; set; }
+    public DateTime StartDate { get; set; }
+    public DateTime EndDate { get; set; }
     public string Day { get; set; }
 }
